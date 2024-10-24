@@ -1,0 +1,59 @@
+html {font-size: larger; font-family: 'Times New Roman'; background-color: rgb(171, 187, 202); line-height: 50px;}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0px 20px 20px;
+    border: 3px solid black;
+    background: linear-gradient(to right, #eaf4ff, #9ceaff, #00c6ff);
+}
+
+.circle img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+p {
+    color: black;
+    line-height: 30px;
+}
+
+#name {letter-spacing: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Album {letter-spacing: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#socialMedia {letter-spacing: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+}
+
+li {
+    color: rgb(215, 217, 255);
+    line-height: 30px;
+}
+
+ul li {
+    background-color: rgb(35, 35, 36);
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    border-left: 5px solid #00c6ff;
+    margin-left: 50px;
+}
+
+a {color: #1c9bbe; font-weight; font-style: italic;}
