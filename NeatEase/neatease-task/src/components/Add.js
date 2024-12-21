@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const AddTask = ({ addTask }) => {
+const Add = ({ addTask }) => {
     const [task, setTask] = useState('');
     const [category, setCategory] = useState('');
     const [dueDate, setDueDate] = useState('');
@@ -59,4 +59,4 @@ const AddTask = ({ addTask }) => {
     );
 };
 
-export default AddTask;
+export default Add;

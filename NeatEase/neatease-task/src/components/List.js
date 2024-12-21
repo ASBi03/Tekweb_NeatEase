@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function TaskList() {
+function List() {
   return (
     <div className="container flex flex-col h-screen w-screen pt-4 bg-yellow-200">
       <div className="tabletask flex items-start justify-start">
@@ -22,4 +22,4 @@ function TaskList() {
   );
 };
 
-export default TaskList;
+export default List;

@@ -1,18 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NeatEase from "./components/Neatease";
-import Navbar from "./components/Navbar";
-import TaskList from "./components/TaskList";
-import AddTask from "./components/AddTask";
+import Home from "./components/Home";
+import Navibar from "./components/Navibar";
+import List from "./components/List";
+import Add from "./components/Add";
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      <Navibar />
       <Routes>
-        <Route path="/" element={<NeatEase />}/>
-        <Route path="/TaskList" element={<TaskList />} />
-        <Route path="/AddTask" element={<AddTask />} />
+        <Route path="/" element={<Home />}/>
+        <Route path="/List" element={<List />} />
+        <Route path="/Add" element={<Add />} />
       </Routes>
     </Router>
   )
